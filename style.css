@@ -1,31 +1,35 @@
 html {
-    background-color: rgb(100, 142, 180);
-    font-size: 10px;
-    font-family: 'Pacifico', cursive;
+  background-color: rgb(100, 142, 180);
+  font-size: 10px;
+  font-family: "Pacifico", cursive;
+  padding: 100px;
 }
 h1 {
-    font-size: 60px;
-    text-align: center;
+  margin: 10;
+  padding: 10px 0;
+  color: #00539f;
+  font-size: 60px;
+  text-align: center;
+  box-shadow: 3px 3px 3px black;
+  text-shadow: 3px 3px 1px white;
 }
-p,li{
-    text-align: center;
-    font-size: 16px;
+p,
+li {
+  text-align: center;
+  font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
-
 }
 .img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #FF9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 10 20px 20px 20px;
+  border: 5px solid black;
+}
